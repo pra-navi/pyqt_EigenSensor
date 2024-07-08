@@ -1,0 +1,20 @@
+1. Ensure you have the respective python libraries needed for the project. On top of the usual numpy, matplotlib and so on, you will need
+	a. brainflow: use "pip install brainflow"
+	b. numpy: use "pip install numpy"
+	c: pyqtgraph: "pip install pyqtgraph"
+	d: PyQt5: "pip install PyQt5"
+	e. tools: use "pip install setuptools"
+
+2. Using the OpenBCI GUI, run Auto Connect to connect to the headset, and see it running.
+3. Restart OpenBCI GUI, in manual connect, check for the COM port number that is used to connect to the EEG board
+4. Change the "serial_port=9" to the respective COM port number
+5. Close OpenBCI GUI
+6. Using a terminal, navigate (using cd command) to the folder where these files are stored
+7. run the command "python backend_xxx.py" (use the respective the backend file you want to run)
+
+2024-06-07 16:49:01,362 Starting Bokeh server version 3.1.1 (running on Tornado 6.3.3)
+2024-06-07 16:49:01,527 User authentication hooks NOT provided (default user enabled)
+2024-06-07 16:49:01,531 Bokeh app running at: http://localhost:5006/plot_real_time_eeg
+2024-06-07 16:49:01,531 Starting Bokeh server with process id: 34740
+
+8. A window will pop up and you can use as per normal!
